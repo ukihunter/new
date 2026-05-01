@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Signup UI</title> <!-- Changed title to reflect signup form -->
+
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600&display=swap" rel="stylesheet">
+  <!-- Consider adding a link to your CSS file here, e.g., <link rel="stylesheet" href="style.css"> -->
+</head>
+
+<body>
+
+  <div class="container">
+    <h2>Create Account</h2> <!-- Changed heading for a signup form -->
+
+    <div class="input-group">
+      <label for="email">Email</label>
+      <input type="email" id="email" placeholder="Enter your email">
+    </div>
+    <!-- password section -->
+    <div class="input-group">
+      <label for="password">Password</label>
+      <input type="password" id="password" placeholder="Enter your password">
+    </div>
+    <!-- confirm password section -->
+    <div class="input-group">
+      <label for="confirm-password">Confirm Password</label>
+      <input type="password" id="confirm-password" placeholder="Confirm your password">
+    </div>
+
+    <div class="options">
+      <!-- 'Remember Me' is more common for login, but kept for now. For signup, it's less typical. -->
+      <label><input type="checkbox"> Remember Me</label>
+      <a href="#">Forgot Password?</a>
+    </div>
+
+    <button type="submit">Sign Up</button> <!-- Changed button text and added type="submit" -->
+
+    <div class="signup">
+      Already have an account? <a href="login.html">Login</a> <!-- Completed signup message and link -->
+    </div>
+  </div>
+
+</body>
+
+</html>
